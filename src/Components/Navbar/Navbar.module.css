@@ -1,0 +1,23 @@
+.nav {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222831;
+}
+.logo {
+  border: 1px solid white;
+  margin-left: 1rem;
+}
+.navItems {
+  border: 1px solid white;
+}
+.navItems ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navItems ul li {
+  margin: 1rem;
+  list-style: none;
+  border: 1px solid white;
+}
