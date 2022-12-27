@@ -4,13 +4,21 @@
   justify-content: space-between;
   align-items: center;
   background-color: #222831;
+  height: 70px;
 }
 .logo {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   margin-left: 1rem;
+  color: white;
 }
 .navItems {
-  border: 1px solid white;
+  /* border: 1px solid white; */
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .navItems {
+    display: none;
+  }
 }
 .navItems ul {
   display: flex;
@@ -19,5 +27,5 @@
 .navItems ul li {
   margin: 1rem;
   list-style: none;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }

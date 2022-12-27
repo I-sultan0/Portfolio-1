@@ -1,0 +1,33 @@
+.aboutDiv {
+  display: grid;
+  width: 90%;
+  margin: 10% auto;
+  grid-template-columns: 40% 60%;
+  background: #222831;
+}
+.aboutDiv1,
+.aboutDiv2,
+.aboutText1,
+.aboutTextImg,
+.aboutText,
+.aboutText2 {
+  border: 1px solid white;
+}
+.aboutDiv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.aboutText2 {
+  width: 80%;
+  margin: 0 auto;
+}
+.aboutDiv2 {
+  text-align: right;
+}
+.aboutDiv2 img {
+  /* border: 1px solid white; */
+  background-size: cover;
+  margin-right: 0px;
+  width: 80%;
+}

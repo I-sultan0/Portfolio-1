@@ -1,0 +1,68 @@
+/* .heroDiv,
+.heroDiv1,
+.heroDiv2,
+.heroDiv1Container,
+.heroContainer1,
+.heroContainer2 {
+  border: 1px solid black;
+} */
+
+.heroDiv {
+  display: grid;
+  width: 90%;
+  margin: 0 auto;
+  grid-template-columns: 65% 35%;
+  background: #222831;
+}
+.heroDiv1 {
+  margin: auto;
+  /* border: 1px solid white; */
+}
+.heroDiv1Container {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.heroContainer1 {
+  margin: 20px auto 0px auto;
+  /* border: 2px solid white; */
+}
+.heroContainer1 img {
+  /* border: 1px solid black; */
+  background-size: cover;
+  margin-top: 20px;
+}
+.heroContainer2 h1 {
+  color: white;
+  font-size: 75px;
+  font-weight: 700;
+  margin: 0px;
+}
+.heroContainer2 :nth-child(2) {
+  color: rgba(0, 173, 181, 1);
+}
+
+.heroDiv2 img {
+  /* border: 1px solid black; */
+  width: 100%;
+  background-size: cover;
+}
+.buttons {
+  margin: 20px auto;
+  /* border: 1px solid black; */
+}
+.buttons :nth-child(1) {
+  background: rgba(0, 173, 181, 1);
+}
+.buttons :nth-child(2) {
+  background: #393e46;
+  color: white;
+}
+.buttons button {
+  padding: 0.6rem;
+  border-radius: 15px;
+  border: none;
+  margin-left: 15px;
+  color: white;
+}
