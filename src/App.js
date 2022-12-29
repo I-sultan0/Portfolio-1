@@ -1,9 +1,12 @@
 import React from "react";
-import About from "./Components/About/About";
-import Hero from "./Components/Hero/Hero";
+import AllComponents from "./Components/AllComponents/AllComponents";
 import Navbar from "./Components/Navbar/Navbar";
 import Sidebar from "./Components/Navbar/Sidebar";
+import { filterData } from "./Components/Works/FilterData";
+
 const App = () => {
+  const oldData = filterData;
+  console.log(oldData);
   return (
     <>
       <div className="App" id="outer-container">
@@ -12,8 +15,7 @@ const App = () => {
           pageWrapId={"page-wrap"}
           outerContainerId={"outer-container"}
         />
-        <Hero />
-        <About />
+        <AllComponents reservedData={oldData} />
       </div>
     </>
   );

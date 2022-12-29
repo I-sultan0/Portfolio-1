@@ -1,0 +1,57 @@
+.connect {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 85%;
+  margin: 10% auto;
+  border: 1px solid white;
+}
+.connect1 {
+  margin-top: 10%;
+  border: 1px solid white;
+}
+.connect1 img {
+  background-size: cover;
+  width: 100%;
+}
+.connect2 {
+  border: 1px solid white;
+  margin-top: 20%;
+}
+.nameEmail {
+  border: 1px solid white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.connect2 label {
+  display: block;
+  color: white;
+  margin: 1rem 1rem 0 1rem;
+  font-weight: bold;
+}
+.nameEmail input,
+.message input {
+  background-color: rgba(57, 62, 70, 0.5);
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  margin: 1rem;
+}
+.message input {
+  width: 250px;
+  height: 100px;
+  text-align: start;
+  align-items: start;
+}
+.connect2 button {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  margin: 1rem;
+  background: rgba(0, 173, 181, 1);
+  color: white;
+  font-weight: bold;
+}
+.connect2 input placeholder {
+  color: white;
+}
