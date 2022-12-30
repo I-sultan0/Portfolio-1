@@ -1,23 +1,22 @@
 .worksContainer {
-  /* background: url(../../Assets/worksBg.png); */
   background-image: url(../../Assets/worksBg.png);
   background-position: center;
   background-size: cover;
 }
-.worksContainer,
+/* .worksContainer,
 .worksDiv,
 .worksDiv1,
 .workCategories,
 .worksDiv2 {
   border: 1px solid white;
-}
+} */
 
 .worksDiv {
   width: 85%;
   margin: 100px auto;
 }
 .worksDiv1 {
-  width: 70%;
+  width: 100%;
 }
 .worksDiv1 h2 {
   font-size: 60px;

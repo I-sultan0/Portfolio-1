@@ -28,12 +28,7 @@ const Connect = () => {
             <div className={classes.message}>
               <label>Your Message</label>
 
-              <input
-                type="text"
-                name="message"
-                placeholder="Message"
-                required
-              />
+              <textarea name="message" placeholder="Message" required />
             </div>
             <button type="submit">Send Message</button>
           </form>

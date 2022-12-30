@@ -2,9 +2,11 @@
   display: grid;
   width: 90%;
   margin: 10% auto;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   background: #222831;
+  /* border: 1px solid white; */
 }
+
 /* .aboutDiv1,
 .aboutDiv2,
 .aboutText1,
@@ -26,11 +28,11 @@
   margin: 0 auto;
 }
 .aboutDiv2 {
-  text-align: right;
+  text-align: center;
 }
 .aboutDiv2 img {
   /* border: 1px solid white; */
   background-size: cover;
-  margin-right: 0px;
+  /* margin-right: 0px; */
   width: 80%;
 }

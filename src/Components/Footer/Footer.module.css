@@ -1,0 +1,20 @@
+.footer {
+  border: 1px solid rgb(66, 66, 66);
+}
+.socials {
+  /* border: 1px solid white; */
+  width: 400px;
+  margin: 0 auto;
+}
+.socials ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.socials ul li {
+  list-style: none;
+}
+.email {
+  /* border: 1px solid white; */
+  text-align: center;
+  color: white;
+}

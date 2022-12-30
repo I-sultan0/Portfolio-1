@@ -11,7 +11,7 @@
   display: grid;
   width: 90%;
   margin: 0 auto;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   background: #222831;
 }
 .heroDiv1 {
@@ -39,13 +39,26 @@
   font-weight: 700;
   margin: 0px;
 }
+@media only screen and (max-width: 600px) {
+  .heroContainer2 h1 {
+    font-size: 60px;
+  }
+  .heroContainer1 img {
+    margin-top: 0px;
+    height: 85%;
+  }
+}
 .heroContainer2 :nth-child(2) {
   color: rgba(0, 173, 181, 1);
 }
-
-.heroDiv2 img {
-  /* border: 1px solid black; */
+.heroDiv2 {
   width: 100%;
+  /* border: 1px solid white; */
+  text-align: center;
+}
+.heroDiv2 img {
+  /* border: 2px solid red; */
+  width: 80%;
   background-size: cover;
 }
 .buttons {

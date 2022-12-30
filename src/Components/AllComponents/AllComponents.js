@@ -4,6 +4,7 @@ import Hero from "../Hero/Hero";
 import Works from "../Works/Works";
 import { filterData } from "../Works/FilterData";
 import Connect from "../Connect/Connect";
+import Footer from "../Footer/Footer";
 
 const AllComponents = () => {
   const [details, setDetails] = useState("Web");
@@ -24,6 +25,7 @@ const AllComponents = () => {
       <About />
       <Works sendValue={passValue} newValue={filtered} />
       <Connect />
+      <Footer />
     </>
   );
 };
