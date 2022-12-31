@@ -27,5 +27,6 @@
 .navItems ul li {
   margin: 1rem;
   list-style: none;
+  cursor: pointer;
   /* border: 1px solid white; */
 }

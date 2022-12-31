@@ -84,3 +84,6 @@
 .bm-item:hover {
   color: #ffffff;
 }
+.menu-item {
+  cursor: pointer;
+}
