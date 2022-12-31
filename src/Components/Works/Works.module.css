@@ -2,6 +2,7 @@
   background-image: url(../../Assets/worksBg.png);
   background-position: center;
   background-size: cover;
+  /* border: 1px solid white; */
 }
 /* .worksContainer,
 .worksDiv,
@@ -31,6 +32,8 @@
   display: flex;
   list-style: none;
   text-align: center;
+  /* border: 1px solid red; */
+  padding: 0;
 }
 .workCategories ul li button {
   color: white;

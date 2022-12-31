@@ -15,7 +15,7 @@ const Connect = () => {
             method="POST"
           >
             <div className={classes.nameEmail}>
-              <div>
+              <div className={classes.name}>
                 <label>Your Name</label>
                 <input type="text" name="name" placeholder="Name" required />
               </div>

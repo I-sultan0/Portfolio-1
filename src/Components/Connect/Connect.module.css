@@ -21,18 +21,33 @@
   /* border: 1px solid white; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
 }
-
+/* .name {
+  border: 1px solid white;
+} */
 .connect2 label {
   display: block;
   color: white;
   margin: 1rem 1rem 0 1rem;
   font-weight: bold;
 }
+.nameEmail input {
+  padding: 0.6rem;
+}
+@media screen and (max-width: 600px) {
+  .nameEmail {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  .connect2 {
+    text-align: center;
+  }
+}
 .nameEmail input,
 .message textarea {
   background-color: rgba(57, 62, 70, 0.5);
-  padding: 0.6rem;
   border-radius: 8px;
   border: none;
   margin: 1rem;
