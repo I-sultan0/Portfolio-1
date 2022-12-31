@@ -11,21 +11,29 @@ const Footer = () => {
       <div className={classes.socials}>
         <ul>
           <li>
-            <img src={fb} alt="socials" />
+            <a href="https://www.facebook.com/" target="blank">
+              <img src={fb} alt="socials" />
+            </a>
           </li>
           <li>
-            <img src={insta} alt="socials" />
+            <a href="https://www.instagram.com/" target="blank">
+              <img src={insta} alt="socials" />
+            </a>
           </li>
           <li>
-            <img src={twitter} alt="socials" />
+            <a href="https://twitter.com/" target="blank">
+              <img src={twitter} alt="socials" />
+            </a>
           </li>
           <li>
-            <img src={yt} alt="socials" />
+            <a href="https://www.youtube.com/" target="blank">
+              <img src={yt} alt="socials" />
+            </a>
           </li>
         </ul>
       </div>
       <div className={classes.email}>
-        <h4>akhersultan007@gmail.com</h4>
+        <h4>akhtersultan007@gmail.com</h4>
       </div>
     </div>
   );

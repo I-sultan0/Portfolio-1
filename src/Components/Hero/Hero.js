@@ -2,8 +2,13 @@ import React from "react";
 import classes from "./Hero.module.css";
 import curlyArrow from "../../Assets/curlyArrow.png";
 import sittingPerson from "../../Assets/sittingIcon.png";
+import Resume from "../../Assets/Resume.pdf";
 
 const Hero = () => {
+  const connectScroll = () => {
+    window.scrollTo({ top: 1800, behavior: "smooth" });
+  };
+
   return (
     <>
       <div className={classes.heroDiv}>
@@ -16,8 +21,10 @@ const Hero = () => {
               <h1>CREATIVE UI</h1>
               <h1>DEVELOPER</h1>
               <div className={classes.buttons}>
-                <button>Hire Me</button>
-                <button>Download CV</button>
+                <button onClick={connectScroll}>Hire Me</button>
+                <a href={Resume} download>
+                  <button>Download CV</button>
+                </a>
               </div>
             </div>
           </div>
